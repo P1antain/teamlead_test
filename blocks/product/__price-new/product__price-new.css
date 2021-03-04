@@ -1,0 +1,17 @@
+.product__price-new{
+    width: 40px;
+    align-self: center;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(.85);
+    }
+    50% {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.85);
+    }
+}

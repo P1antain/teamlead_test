@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>LevelUp</title>
+</head>
+<body class="page">
+<header class="header"></header>
+<main class="content">
+    <section class="section__promo">
+        <div class="promo__name">
+            <h1 class="promo__title">LevelUp</h1>
+            <h2 class="promo__subtitle">Продукт для повышения потенции.</h2>
+        </div>
+        <div class="promo__product">
+            <img src="./images/prod.png" alt="LevelUp. Продукт для повышения потенции." class="promo__image">
+            <div class="promo__info">
+                <ul class="promo__lists">
+                    <li class="promo__list">Lorem input</li>
+                    <li class="promo__list">Lorem input</li>
+                    <li class="promo__list">Lorem input</li>
+                </ul>
+                <button class="button promo__order" type="submit"><a href="#prod" class="promo__button-link">Заказать</a></button>
+            </div>
+        </div>
+        <video  class="promo__background" poster="video/poster.jpg" autoplay muted loop>
+            <source src="video/video.mp4" type="video/mp4">
+            <source src="video/video__form.webm" type="video/webm"><
+        </video>
+    </section>
+
+    <section class="section__composition">
+        <div class="composition">
+            <div class="composition__item">
+                <div class="composition__item-img"></div>
+                <h3 class="composition__item-name">lorem Input</h3>
+            </div>
+            <div class="composition__item">
+                <div class="composition__item-img"></div>
+                <h3 class="composition__item-name">lorem Input</h3>
+            </div>
+            <div class="composition__item">
+                <div class="composition__item-img"></div>
+                <h3 class="composition__item-name">lorem Input</h3>
+            </div>
+        </div>
+
+        <div class="composition__block">
+            <img src="images/prod.png" alt="" class="composition__block-img">
+            <button class="button composition__block-button" type="submit"><a href="#prod" class="promo__button-link">Заказать</a></button>
+        </div>
+        <div class="composition">
+            <div class="composition__item">
+                <div class="composition__item-img"></div>
+                <h3 class="composition__item-name">lorem Input</h3>
+            </div>
+            <div class="composition__item">
+                <div class="composition__item-img"></div>
+                <h3 class="composition__item-name">lorem Input</h3>
+            </div>
+            <div class="composition__item">
+                <div class="composition__item-img"></div>
+                <h3 class="composition__item-name">lorem Input</h3>
+            </div>
+        </div>
+    </section>
+    <section class="section__review">
+        <div class="slider">
+            <div class="slider__item filter">
+                <div class="slider__image"></div>
+                <h3 class="slider__name">Иван Иванович</h3>
+                <p class="slider__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequuntur ea expedita harum illum perferendis quaerat. Accusamus aut blanditiis dolor earum id illum, ipsa iusto nisi possimus praesentium quibusdam voluptatem?</p>
+            </div>
+            <div class="slider__item">
+                <div class="slider__image"></div>
+                <h3 class="slider__name">Пётр Петрович</h3>
+                <p class="slider__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam beatae cumque doloribus enim, error exercitationem iure libero maxime, minus mollitia nemo nostrum placeat quae, quisquam quo saepe sunt vitae?</p>
+            </div>
+            <div class="slider__item filter">
+                <div class="slider__image"></div>
+                <h3 class="slider__name">Сергей Сергеевич</h3>
+                <p class="slider__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut dicta exercitationem minus nisi quis voluptate voluptates. Asperiores cum cupiditate doloribus eum iusto necessitatibus, nihil quae quisquam, repellendus totam, veniam?</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__promo section__promo_disable">
+        <div class="promo__product">
+            <img src="./images/doctor.png" alt="Рекламирую" class="promo__image">
+            <p class="promo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cum dolor doloremque doloribus earum, facere, fugiat laboriosam laborum natus nesciunt officia omnis quae quidem repudiandae soluta suscipit totam voluptatem voluptatum!</p>
+        </div>
+        <ul class="promo__items">
+            <li class="promo__item">lorem Input</li>
+            <li class="promo__item">lorem Input</li>
+            <li class="promo__item">lorem Input</li>
+        </ul>
+        <button class="button promo__button" type="submit"><a href="#prod" class="promo__button-link">Заказать</a></button>
+    </section>
+    
+    <section class="section__product" id="prod">
+        <div class="promo__name">
+            <h2 class="promo__title">LevelUp</h2>
+            <h3 class="promo__subtitle">Продукт для повышения потенции.</h3>
+        </div>
+        <div class="product__clock">
+            <span class="clock__hour">00</span>
+            <span class="clock__minutes"></span>
+            <span class="clock__second"></span>
+        </div>
+        <div class="product">
+            <div class="product__info">
+                <img src="./images/prod.png" alt="" class="product__image">
+                <span class="product__price-old">5000</span>
+                <span class="product__price-new">10000</span>
+            </div>
+            <div class="product__form">
+                <form action="#" class="form">
+                    <section class="product__form-section">
+                        <label class="form__label" for="first-name">Имя</label>
+                        <input class="form__input" id="first-name" name="first_name" type="text"
+                               required
+                               minlength="2"
+                               maxlength="50"
+                               placeholder="Иванов Иван Иванович">
+                    </section>
+                    <section class="product__form-section">
+                        <label class="form__label" for="phone-number">Номер телефона</label>
+                        <input class="form__input" id="phone-number" name="phone_number" type="text"
+                               required
+                               pattern="^((\+7|7|8)+([0-9]){10})$"
+                               placeholder="+7999999999">
+                    </section>
+                    <button type="submit" class="button form__submit">Заказать</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer"></footer>
+<script src="scripts/lib/jquery-3.6.0.min.js"></script>
+<script src="scripts/lib/slick.min.js"></script>
+<script src="scripts/row.js"></script>
+<script src="scripts/index.js"></script>
+</body>
+</html>

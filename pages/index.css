@@ -1,0 +1,48 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/slick/slick.css);
+@import url(../vendor/slick/slick-theme.css);
+/*other*/
+@import url(../blocks/page/page.css);
+@import url(../blocks/button/button.css);
+/*Promo*/
+@import url(../blocks/promo/section__promo.css);
+@import url(../blocks/promo/__name/promo__name.css);
+@import url(../blocks/promo/__title/promo__title.css);
+@import url(../blocks/promo/__subtitle/promo__subtitle.css);
+@import url(../blocks/promo/__product/promo__product.css);
+@import url(../blocks/promo/__image/promo__image.css);
+@import url(../blocks/promo/__info/promo__info.css);
+@import url(../blocks/promo/__lists/promo__lists.css);
+@import url(../blocks/promo/__list/promo__list.css);
+@import url(../blocks/promo/__order/promo__order.css);
+@import url(../blocks/promo/__background/promo__background.css);
+@import url(../blocks/promo/__button/promo__button.css);
+@import url(../blocks/promo/__button-link/promo__button-link.css);
+@import url(../blocks/promo/__items/promo__items.css);
+@import url(../blocks/promo/__item/promo__item.css);
+@import url(../blocks/promo/__text/promo__text.css);
+@import url(../blocks/promo/_disable/section__promo_disable.css);
+/*Composition*/
+@import url(../blocks/composition/section__composition.css);
+@import url(../blocks/composition/__block/composition__block.css);
+@import url(../blocks/composition/__block-img/composition__block-img.css);
+@import url(../blocks/composition/__item/composition__item.css);
+@import url(../blocks/composition/__item-img/composition__item-img.css);
+/*product*/
+@import url(../blocks/product/section__product.css);
+@import url(../blocks/product/product.css);
+@import url(../blocks/product/__clock/product__clock.css);
+@import url(../blocks/product/__form/product__form.css);
+@import url(../blocks/product/__form-section/product__form-section.css);
+@import url(../blocks/product/__image/product__image.css);
+@import url(../blocks/product/__info/product__info.css);
+@import url(../blocks/product/__price-new/product__price-new.css);
+@import url(../blocks/product/__price-old/product__price-old.css);
+/*form*/
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__submit/form__submit.css);
+/*Slider*/
+@import url(../blocks/slider/section__review.css);
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__image/slider__image.css);

@@ -1,0 +1,8 @@
+.promo__subtitle{
+    margin: 0 auto;
+}
+@media screen and (min-width:320px) and (max-width: 500px) {
+    .promo__subtitle {
+        font-size: 1em;
+    }
+}

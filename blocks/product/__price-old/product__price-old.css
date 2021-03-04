@@ -1,0 +1,15 @@
+.product__price-old{
+    width: 40px;
+    align-self: center;
+    position: relative;
+}
+.product__price-old::before {
+    content: "";
+    border-bottom: 3px solid red;
+    position: absolute;
+    left: -3px;
+    top: -2px;
+    width: 44px;
+    height: 50%;
+    transform: rotate(351deg);
+}

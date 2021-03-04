@@ -1,0 +1,9 @@
+.composition__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px 40px;
+}
+.composition__item:last-child{
+    margin-bottom: 0
+}

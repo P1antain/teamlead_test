@@ -1,0 +1,8 @@
+.slider__image{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: red;
+    background-size: cover;
+    margin: 0 auto;
+}

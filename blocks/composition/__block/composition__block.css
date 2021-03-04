@@ -1,0 +1,12 @@
+.composition__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width:320px) and (max-width: 500px){
+    .composition__block{
+        order: 3;
+        width: 250px;
+    }
+}

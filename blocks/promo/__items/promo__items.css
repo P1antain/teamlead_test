@@ -1,0 +1,7 @@
+.promo__items{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 25px 0 10px;
+}
