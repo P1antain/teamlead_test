@@ -2,5 +2,6 @@
     min-width: 320px;
     font-family: 'Times New Roman', sans-serif;
     color: #000000;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
     margin: 0 auto;
 }
